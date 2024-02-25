@@ -1,0 +1,7 @@
+$ gdb ./segfaulter
+
+(gdb) r
+
+(gdb) bt
+
+(gdb) quit

@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void func(){
+void func()
+{
     int* arr = malloc(10*sizeof(int));
 
     arr[2] = 10;
@@ -10,7 +11,8 @@ void func(){
     free(arr);
 }
 
-int main(){
+int main()
+{
     printf("no leak process\n");
 
     func();
