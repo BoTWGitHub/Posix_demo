@@ -7,6 +7,6 @@ handle_signal() {
 
 trap handle_signal USR1
 ./program &
-wait
+wait $!
 
 echo "script end"
